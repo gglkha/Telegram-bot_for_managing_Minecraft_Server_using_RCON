@@ -30,11 +30,11 @@ TELEGRAM_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
 
 # Список ID пользователей Telegram, которым разрешен доступ к боту
 # Чтобы узнать свой ID, напишите боту @userinfobot
-ALLOWED_USER_IDS = [123456789, 987654321]
+ALLOWED_USER_IDS = [123456789, 123456789]
 
 # -- Настройки подключения к Minecraft-серверу --
-# IP-адрес или домен вашего сервера
-RCON_HOST = "YOUR_SERVER_IP_OR_DOMAIN"
+# IP-адрес вашего сервера
+RCON_HOST = "YOUR_SERVER_IP"
 # RCON порт (обычно отличается от игрового)
 RCON_PORT = 25575
 # RCON пароль из server.properties
